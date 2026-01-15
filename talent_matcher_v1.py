@@ -1,11 +1,4 @@
 # talent_matcher_v1.py
-# Streamlit Talent Matcher — Phase 1
-# Updates requested:
-#  - Remove years_factor entirely
-#  - Make skill_coverage use the SAME matching logic as the boolean filter (exact token OR word-boundary substring)
-#  - Keep city/state as separate filters
-#  - KPIs show: (1) Candidates found after filters, (2) Avg years of experience for filtered set
-
 import re
 import pandas as pd
 import streamlit as st
