@@ -1,4 +1,4 @@
-# talent_matcher_v1.py
+# talent_matcher.py
 import re
 import pandas as pd
 import streamlit as st
